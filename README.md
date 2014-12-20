@@ -1,6 +1,8 @@
 # ApiRspecta
 
-TODO: Write a gem description
+`api_rspecta` adds following helper methods to test your JSON APIs with RSpec:
+
+
 
 ## Installation
 
