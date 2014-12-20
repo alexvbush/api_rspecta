@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/SmartCloud/api_rspecta.png?label=ready&title=Ready)](https://waffle.io/SmartCloud/api_rspecta)
 # API_RSpecta
 
 `api_rspecta` adds following helper methods to test your JSON APIs with RSpec:
