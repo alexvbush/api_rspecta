@@ -4,11 +4,11 @@ module ApiRspecta
   module ApiRequestsHelpers
     module JsonHelpers
       def json
-        @json ||= JSON.parse last_response.body
+        @json ||= JSON.parse response.body
       end
 
       def refresh_json
-        @json = JSON.parse last_response.body
+        @json = JSON.parse response.body
       end
 
       def print_json
@@ -72,7 +72,7 @@ module ApiRspecta
       end
 
       def response_status(status)
-        expect(last_response.status).to eq(status)
+        expect(response.status).to eq(status)
       end
 
       def should_respond_with_error_for(field)
